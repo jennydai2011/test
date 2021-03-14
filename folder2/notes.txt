@@ -69,3 +69,6 @@ git branch -v
 #切换分支
 git checkout branch01
 git checkout main
+
+
+#added in branch01
