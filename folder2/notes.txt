@@ -1,1 +1,24 @@
 learn git stash
+
+version 2
+
+git --version
+git init
+
+
+repository folder
+.git
+ --hooks
+ --info
+ --logs
+ --objects
+ --refs
+ 
+
+# from working area to stage
+git add demo.txt 
+
+#from state to repository
+git commit -m 'commit some changes'
+
+#all files have to be under repository folder
