@@ -27,3 +27,32 @@ git commit -m 'commit some changes'
 git config --global user.email "jennydai2011@gmail.com"
 
 git status
+
+git restore demo.txt
+
+
+#check all commit logs
+git log
+
+#will show commit as (key, value), key is commit id, value is commit details(time, files)
+
+git log
+: --show current page
+next page: space
+previous page: b
+exit:q
+
+git log --pretty=oneline
+git lot --onelinegit reflog #从最新的版本回退到指定版本要多少步
+
+git reset --hard ***index id*** #前进或者后退到指定版本
+#git reset --hard 本地库指针移动的同时，重置reset暂存区，重置reset工作区
+
+git reset -- mixed ***indexid***
+#git reset --mixed 本地库指针移动时，reset暂存区， 工作区不移动
+
+git reset --soft #暂存区 和工作区都不动
+#一般只用 git reset --hard
+
+
+
