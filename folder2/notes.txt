@@ -59,15 +59,8 @@ git diff filename #比较某个文件， 只比较工作区 和暂存区中的�
 git diff  #不带文件名参数， 比较所有文件 在工作区和暂存区差别
 
 
--------------branch
-#查看所有分支
-git branch -v
-
-
-#在哪个分支上， 就有*
-
-#切换分支
-git checkout branch01
-git checkout main
-
+#added in branch01
+#merge branch01 to main
+1) first checkout main
+2) git merge branch01
 #Add by main
