@@ -55,4 +55,17 @@ git reset --soft #暂存区 和工作区都不动
 #一般只用 git reset --hard
 
 
+git diff filename #比较某个文件， 只比较工作区 和暂存区中的差异
+git diff  #不带文件名参数， 比较所有文件 在工作区和暂存区差别
 
+
+-------------branch
+#查看所有分支
+git branch -v
+
+
+#在哪个分支上， 就有*
+
+#切换分支
+git checkout branch01
+git checkout main
