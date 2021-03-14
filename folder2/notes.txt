@@ -72,3 +72,6 @@ git checkout main
 
 
 #added in branch01
+#merge branch01 to main
+1) first checkout main
+2) git merge branch01
