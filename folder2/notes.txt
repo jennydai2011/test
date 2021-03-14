@@ -17,8 +17,13 @@ repository folder
 
 # from working area to stage
 git add demo.txt 
+git add .
 
 #from state to repository
 git commit -m 'commit some changes'
 
 #all files have to be under repository folder
+
+git config --global user.email "jennydai2011@gmail.com"
+
+git status
